@@ -1,0 +1,121 @@
+.project-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 40px !important;
+    background-image: var(--section-background-color) !important;
+}
+
+.project-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Space between the cards */
+    padding: 20px;
+}
+
+.project-heading {
+    color: #414141 !important;
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+    padding-bottom: 15px;
+  }
+
+.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    margin-bottom: 20px !important;
+}
+
+.project-card-spacing {
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+  
+.project-card-header {
+    padding: 20px;
+    background-color: #1c3b5a;
+}
+  
+.name-title {
+    font-size: 24px;
+    margin: 0;
+}
+  
+.name-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: -40px;
+    background-color: #fff;
+    padding: 5px;
+}
+  
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+  
+.date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 10px;
+}
+  
+.details {
+    font-size: 14px;
+    color: #333;
+    padding-left: 15px;
+    text-align: justify;
+}
+  
+.details li {
+    margin-bottom: 5px;
+}
+  
+@media (max-width: 768px) {
+    .project-card-header {
+        text-align: center;
+    }
+    
+    .title,
+    .name-title {
+        text-align: center;
+    }
+    
+    .details {
+        text-align: justify;
+    }
+
+    .project-card {
+        flex: 1 1 calc(50% - 20px); /* Adjust to 2 cards per row on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .project-card {
+        flex: 1 1 100%; /* Adjust to 1 card per row on small screens */
+    }
+}
+  
+.card-title {
+    margin-bottom: 2px !important;
+}
+
+/* .col-md-4 {
+    margin-left: 20px !important;
+} */
