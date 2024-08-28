@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kunjchampaneri/static/css/main.23d86502.chunk.css",
-    "main.js": "/kunjchampaneri/static/js/main.b8958d9e.chunk.js",
-    "main.js.map": "/kunjchampaneri/static/js/main.b8958d9e.chunk.js.map",
+    "main.js": "/kunjchampaneri/static/js/main.0397ce02.chunk.js",
+    "main.js.map": "/kunjchampaneri/static/js/main.0397ce02.chunk.js.map",
     "runtime-main.js": "/kunjchampaneri/static/js/runtime-main.99062b68.js",
     "runtime-main.js.map": "/kunjchampaneri/static/js/runtime-main.99062b68.js.map",
     "static/css/2.83925744.chunk.css": "/kunjchampaneri/static/css/2.83925744.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.83925744.chunk.css",
     "static/js/2.ba38bcc0.chunk.js",
     "static/css/main.23d86502.chunk.css",
-    "static/js/main.b8958d9e.chunk.js"
+    "static/js/main.0397ce02.chunk.js"
   ]
 }
