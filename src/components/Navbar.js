@@ -37,7 +37,6 @@ function NavBar() {
   const getBaseURL = () => {
     const pathSegments = window.location.pathname.split('/').filter(Boolean);
     const base = pathSegments.length > 0 ? `/${pathSegments[0]}` : '';
-    console.log("base-----", base);
     return base;
   };
 
