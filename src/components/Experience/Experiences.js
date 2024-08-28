@@ -9,7 +9,7 @@ function Experiences() {
     <Container fluid className="experience-section">
       <Row>
         {EXPERIENCES.map((experience, index) => (
-          <Col md={4} key={index}>
+          <Col md={4} key={index} style={{marginBottom: "1rem"}}>
             <ExperienceCards 
               company={experience.company}
               title={experience.title}

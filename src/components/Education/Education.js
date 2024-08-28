@@ -10,7 +10,7 @@ function Experiences() {
       <Container>
         <Row>
           {EDUCATION.map((education, index) => (
-            <Col md={6} key={index}>
+            <Col md={6} key={index} style={{marginBottom: "1rem"}}>
               <EducationCards 
                 degree={education.degree}
                 institution={education.institution}

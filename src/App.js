@@ -7,7 +7,7 @@ import Education from "./components/Education/Education";
 import Projects from "./components/Projects/Projects";
 import Experiences from "./components/Experience/Experiences";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
