@@ -34,13 +34,6 @@ function NavBar() {
     }
   }, [location]);
 
-  const getBaseURL = () => {
-    const pathSegments = window.location.pathname.split('/').filter(Boolean);
-    const base = pathSegments.length > 0 ? `/${pathSegments[0]}` : '';
-    return base;
-  };
-
-
   const handleNavClick = (path) => {
     setActiveLink(path);
   };
@@ -52,7 +45,7 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Navbar.Brand href={`${getBaseURL()}/`}>
+      <Navbar.Brand href="/">
         <MdDeveloperMode style={{ marginBottom: "2px" }} /> Kunj Champaneri
       </Navbar.Brand>
       <Navbar.Toggle
