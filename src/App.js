@@ -26,7 +26,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/kunjchampaneri">
+    <Router>
       {load ? (
         <Preloader load={load} />
       ) : (

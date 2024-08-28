@@ -28,6 +28,7 @@ function NavBar() {
 
   // Close navbar when route changes
   useEffect(() => {
+    console.log("location------", location);
     updateExpanded(false);
     if (location.pathname && location.pathname !== "") {
       setActiveLink(location.pathname);
