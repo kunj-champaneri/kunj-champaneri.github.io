@@ -28,7 +28,6 @@ function NavBar() {
 
   // Close navbar when route changes
   useEffect(() => {
-    console.log("location------", location, location.pathname);
     updateExpanded(false);
     if (location.pathname && location.pathname !== "") {
       setActiveLink(location.pathname);
@@ -36,8 +35,9 @@ function NavBar() {
   }, [location]);
 
   const getBaseURL = () => {
-    const pathSegments = location.pathname.split('/').filter(Boolean);
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
     const base = pathSegments.length > 0 ? `/${pathSegments[0]}` : '';
+    console.log("base-----", base);
     return base;
   };
 
